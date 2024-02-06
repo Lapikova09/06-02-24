@@ -1,0 +1,135 @@
+.login_cont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.log{
+    width: 544px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.log h6{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.forgot{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-top: 8px;
+    text-decoration-line: underline;
+}
+
+.email{
+    border: 1px solid rgb(35, 35, 33);
+    width: 480px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 10px 16px 10px 16px;
+    margin-top: 24px;
+}
+
+.email::placeholder{
+    color: rgb(121, 118, 124);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+}
+
+.password{
+    width: 436px;
+    height: 48px;
+    border: 1px solid rgb(35, 35, 33);
+    border-radius: 8px;
+    padding: 10px 16px 10px 16px;
+    margin-top: 24px;
+}
+
+.password::placeholder{
+    color: rgb(121, 118, 124);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+}
+
+.keep_loged{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.keep_loged input{
+    width: 18px;
+    height: 18px;
+    margin-right: 13px;
+}
+
+.keep_loged label{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.keep_loged label p {
+    text-decoration-line: underline;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.click{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    width: 480px;
+}
+
+.join{
+    border-radius: 16px;
+    background: rgb(250, 250, 250);
+    width: 704px;
+    height: 516px;
+    padding: 24px 24px 24px 24px;
+}
+
+.join h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    margin-bottom: 24px;
+}
+
+.kicks{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    opacity: 0.8;
+    margin-bottom: 24px;
+}
+
+.points{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    opacity: 0.8;
+    margin-top: 24px;   
+    margin-bottom: 64px;
+}
